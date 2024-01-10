@@ -1,4 +1,4 @@
-check
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 **NOTE: This is a toy package created for expository purposes, for the
@@ -15,7 +15,7 @@ see [stringr](https://stringr.tidyverse.org),
 <!-- badges: end -->
 
 The goal of regexcite.chen.test is to make regular expressions more
-exciting! It provides convenience functions to make some common tasks
+exciting!! It provides convenience functions to make some common tasks
 with string manipulation and regular expressions a bit easier.
 
 ## Installation
