@@ -1,9 +1,4 @@
----
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
+check
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 **NOTE: This is a toy package created for expository purposes, for the
@@ -17,7 +12,6 @@ see [stringr](https://stringr.tidyverse.org),
 # regexcite.chen.test
 
 <!-- badges: start -->
-
 <!-- badges: end -->
 
 The goal of regexcite.chen.test is to make regular expressions more
@@ -26,8 +20,8 @@ with string manipulation and regular expressions a bit easier.
 
 ## Installation
 
-You can install the development version of regexcite from
-[GitHub](https://github.com/) with:
+You can install the development version of regexcite.chen.test from
+[GitHub](https://github.com/phchen5/regexcite.chen.test) with:
 
 ``` r
 # install.packages("devtools")
@@ -55,7 +49,7 @@ Notice how the return value is a **list** of length one, where the first
 element holds the character vector of parts. Often the shape of this
 output is inconvenient, i.e. we want the un-listed version.
 
-That's exactly what `regexcite.chen.test::str_split_one()` does.
+That’s exactly what `regexcite.chen.test::str_split_one()` does.
 
 ``` r
 library(regexcite.chen.test)
@@ -68,7 +62,7 @@ Use `str_split_one()` when the input is known to be a single string. For
 safety, it will error if its input has length greater than one.
 
 `str_split_one()` is built on `stringr::str_split()`, so you can use its
-`n` argument and stringr's general interface for describing the
+`n` argument and stringr’s general interface for describing the
 `pattern` to be matched.
 
 ``` r

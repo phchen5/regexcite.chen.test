@@ -25,7 +25,7 @@ The goal of regexcite.chen.test is to make regular expressions more exciting! It
 
 ## Installation
 
-You can install the development version of regexcite from [GitHub](https://github.com/) with:
+You can install the development version of regexcite.chen.test from [GitHub](https://github.com/phchen5/regexcite.chen.test) with:
 
 ``` r
 # install.packages("devtools")
